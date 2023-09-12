@@ -7,7 +7,7 @@
 * **Descripción:** `Curriculum Vitae de José David Ramos Rios.`
 * **Palabras clave:** `Curriculum, Computación, ESPOL`
 
-## Contenido de la página
+## Datos Personales
 
 ### José David Ramos Rios
 ### Portete 1118 y Villavicencio
