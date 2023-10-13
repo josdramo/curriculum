@@ -12,10 +12,16 @@
 </head>
 
 <body>
+
+    <header class="right_container">
+        <h1>José David Ramos Rios</h1>
+        <h1>Estudiante de Ingeniería en Computación</h1>
+    </header>
+
     <div class="left">
         <section id="informacion">
 
-            <img src="Imagenes/foto.jpg" width="177px" height="202px">
+            <img src="Imagenes/perfil.png" width="150px" height="150px">
 
             <h2>Información</h2>
 
@@ -63,44 +69,48 @@
             </table>
 
             <h2>Mapa</h2>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d419.09689091219235!2d-79.91904988177431!3d-2.0979208093160726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sec!4v1696952802643!5m2!1ses-419!2sec"
-                width="250" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7974.031021931336!2d-79.97358060109536!3d-2.1477477776836245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d730197518363%3A0x1c1075de3f36fddf!2sBiblioteca%20Central%20de%20Ingenier%C3%ADa!5e0!3m2!1ses-419!2sec!4v1697034893549!5m2!1ses-419!2sec" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
             <h2>Formulario de Contacto</h2>
 
-            <form action="/procesar.php" method="post" class="formulario">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre"><br><br>
+            <table class="formulario">
+                <tr>
+                    <form action="/procesar.php" method="post">
+                        <td><label for="nombre">Nombre:</label></td>
+                        <td><input type="text" id="nombre" name="nombre"></td>
+                </tr>
 
-                <label for="email">Correo Electrónico:</label>
-                <input type="email" id="email" name="email"><br><br>
+                <tr>
+                    <td><label for="email">Correo Electrónico:</label></td>
+                    <td><input type="email" id="email" name="email"></td>
+                </tr>
 
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje"></textarea><br><br>
+                <tr>
+                    <td><label for="mensaje">Mensaje:</label></td>
+                    <td><textarea id="mensaje" name="mensaje"></textarea></td>
+                </tr>
 
-                <input type="submit" value="Enviar">
+                <tr>
+                    <td></td>    
+                    <td><input type="submit" value="Enviar"></td>
+                </tr>
             </form>
+            </table>
+            
         </section>
 
         <section id="intereses">
             <h2>Intereses</h2>
-            <ul>
-                <li>Desarrollo de Software</li>
-                <li>Resolución de Problemas Tecnológicos</li>
-                <li>Tecnología de la Información</li>
-                <li>Networking</li>
+            <ol>
                 <li>Ingenieria de Software</li>
-            </ul>
+                <li>Desarrollo de Software</li>
+                <li>Networking</li>
+                <li>Resolución de Problemas Tecnológicos</li> 
+            </ol>
         </section>
     </div>
 
-    <div class="right">
-        <header>
-            <h1>José David Ramos Rios</h1>
-            <h1>Estudiante de Ingeniería en Computación</h1>
-        </header>
+    <section class="right_container">
 
         <nav>
             <ul>
@@ -256,8 +266,9 @@
 
         <footer>
             <div id="copyright">
-                <p>Proyecto hecho por: Jose Ramos ©</p>
+                <p>Proyecto hecho por: Jose Ramos</p>
                 <p>Alojado en Github Pages</p>
+                <p>Copyright © 2023</p>
             </div>
         </footer>
     </div>

@@ -46,7 +46,7 @@ h2 {
     padding-bottom: 3px;
 }
 
-.right {
+.right_container {
     float: right;
     width: 600px;
     margin-right: 200px;
@@ -75,4 +75,5 @@ ul {
 #mensaje {
     margin-left: 60px;
 }
+
 
