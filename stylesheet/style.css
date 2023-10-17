@@ -1,0 +1,229 @@
+* {
+    font-family: 'Merriweather', serif;
+    color: #2a2a2a;
+}
+
+body {
+    background-color: #eff0f3;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #eff0f3;
+}
+
+.subtitulo {
+    font-family: 'Nobile', sans-serif;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 5px;
+}
+
+
+header {
+    text-align: center;
+    width: 1250px;
+    background-image: url(http://4everstatic.com/imagenes/850xX/abstractos/fondo-morado,-lineas-197041.jpg);
+    background-size: cover;
+    margin-left: 50px;
+    margin-top: -150px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    position: fixed;
+    border-radius: 5px;
+}
+
+.caja_flex {
+    margin-top: 150px;
+    display: flex;
+    gap: 50px;
+}
+
+.left_container {
+    background-color: #ff8e3c;
+    width: 45   0px;
+    height: 2090px;
+    margin-left: 50px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.left_container > section {
+    margin-bottom: 50px;
+}
+
+.tabla_contacto {
+    text-align: center;
+    margin-left: 50px;
+}
+
+#informacion img {
+    margin-top: 40px;
+}
+
+.cedula {
+    line-height: 5px;
+    padding-bottom: 3px;
+}
+
+.fecha {
+    line-height: 5px;
+    padding-bottom: 3px;
+}
+
+.lugar {
+    line-height: 5px;
+    padding-bottom: 3px;
+}
+
+.nacionalidad {
+    line-height: 5px;
+    padding-bottom: 3px;
+}
+
+.right_container {
+    width: 700px;
+    text-align: justify;
+    margin-right: 80px;
+}
+
+.left section {
+    text-align: center;
+}
+
+.left table {
+    margin-left: 50px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.colaboradores ul {
+    list-style-type: none;
+}
+
+.contenedorProyecto {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 20px;
+    gap: 40px;
+    background-color: #d43469;
+    border-radius: 10px;
+    padding: 15px 4px 15px 15px;
+}
+
+.contenedorProyecto ul {
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.contenedorDescripcion {
+    gap: 30px;
+}
+
+.contenedorLenguaje {
+    background-color: #ff7ea9;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    border-radius: 10px;
+}
+
+.contenedorLenguaje ul {
+    margin-right: 15px;
+    
+}
+
+.colaboradores {
+    background-color: #ff7ea9;
+    margin-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+#email {
+    margin-left: 0px;
+}
+
+#nombre {
+    margin-left: 75px;
+}
+
+#mensaje {
+    margin-left: 60px;
+}
+
+.navegacion {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    background-color: #a72a53;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 50px;
+    margin-top: 70px;
+    width: 1210px;
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    transition: transform 0.3 ease;
+}
+
+.navegacion a {
+    background-color: #a72a53;
+    color: #eff0f3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navegacion a:hover {
+    color: #ff7ea9;
+
+}
+
+.lista_idioma {
+    list-style-type: square;
+}
+
+.copyright {
+    background-image: url(http://4everstatic.com/imagenes/850xX/abstractos/fondo-morado,-lineas-197041.jpg);
+    background-color: #eff0f3;
+    margin-left: 50px;
+    border-radius: 5px;
+    margin-top: 6px;
+    margin-right: 40px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.copyright p {
+    text-align: right;
+    color: #eff0f3;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.videoPre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#formacion table {
+    text-align: center;
+
+}
+
+.tituloProyecto {
+    font-weight: bold;
+}
