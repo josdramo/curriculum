@@ -24,7 +24,7 @@ h1 {
 header {
     text-align: center;
     width: 1250px;
-    background-image: url(http://4everstatic.com/imagenes/850xX/abstractos/fondo-morado,-lineas-197041.jpg);
+    background-image: url(fondoMorado.jpg);
     background-size: cover;
     margin-left: 50px;
     margin-top: -150px;
@@ -195,7 +195,7 @@ ul {
 }
 
 .copyright {
-    background-image: url(http://4everstatic.com/imagenes/850xX/abstractos/fondo-morado,-lineas-197041.jpg);
+    background-image: url(fondoMorado.jpg);
     background-color: #eff0f3;
     margin-left: 50px;
     border-radius: 5px;
